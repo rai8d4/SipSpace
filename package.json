@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Rayyan Iqbal",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rai8d4/WebDev2FinalProject.git"
