@@ -1,7 +1,15 @@
 const express = require("express");
 const router = express.Router();
 
-//temp stuff for rn PLS IGNORE --> node isn't starting server with enpty router file LoLs
+//updated with actual routes from scaffolding that was made earlier!!!!
+
+const cafeRoutes = require("./routes/cafeRoutes");
+
+const visitRoutes = require("./routes/visitRoutes");
+
+router.use("/cafes", cafeRoutes);
+
+router.use("/visits", visitRoutes);
 
 
 module.exports = router;
