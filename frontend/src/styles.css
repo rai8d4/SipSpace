@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+  
+    background: #e9f0f2;
+    color: #736b66;
+  
+    font-family: 'Fraunces', serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  nav {
+    font-family: 'IM Fell DW Pica', serif;
+    color: #2e4c7d;
+  
+    font-weight: normal;
+  }
+  
+  button {
+    font-family: 'Fraunces', serif;
+  }
+  
+  .container {
+    padding: 32px;
+  }

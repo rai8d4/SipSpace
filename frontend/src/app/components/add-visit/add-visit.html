@@ -1,0 +1,41 @@
+<div class="form-container">
+
+    <h2>Add Visit</h2>
+  
+    <form (ngSubmit)="onSubmit()">
+  
+      <label>Date</label>
+      <input type="date" name="date" [(ngModel)]="date" required>
+  
+      <label>Cafe</label>
+      <select name="cafeId" [(ngModel)]="cafeId" required>
+        <option value="">Select a cafe</option>
+  
+        <option *ngFor="let cafe of cafes" [value]="cafe._id">
+          {{ cafe.name }}
+        </option>
+      </select>
+  
+      <label>Drink Name</label>
+      <input type="text" name="drinkName" [(ngModel)]="drinkName">
+  
+      <label>Drink Price</label>
+      <input type="number" name="drinkPrice" [(ngModel)]="drinkPrice">
+  
+      <label>Drink Rating (1-10)</label>
+      <input type="number" name="drinkRating" [(ngModel)]="drinkRating">
+  
+      <label>Ambiance</label>
+      <input type="text" name="ambiance" [(ngModel)]="ambiance">
+  
+      <label>Productivity Level (1-10)</label>
+      <input type="number" name="productivityLevel" [(ngModel)]="productivityLevel">
+  
+      <label>Notes</label>
+      <textarea name="notes" [(ngModel)]="notes"></textarea>
+  
+      <button type="submit">Add Visit</button>
+  
+    </form>
+  
+  </div>

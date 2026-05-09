@@ -1,0 +1,26 @@
+.visit-card {
+  background: white;
+
+  padding: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 14px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.visit-card h3 {
+  margin-top: 0;
+
+  font-size: 1.7rem;
+}
+
+.visit-card p {
+  color: #736b66;
+
+  line-height: 0.7;
+}
+
+.notes {
+  margin-top: 14px;
+}

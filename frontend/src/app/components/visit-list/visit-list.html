@@ -1,0 +1,29 @@
+<h2>Cafe Visits</h2>
+
+<div *ngFor="let visit of visits" class="visit-card">
+
+  <h3>{{ getCafeName(visit) }}</h3>
+
+  <p class="drink">
+    {{ visit.drinkName }}
+  </p>
+
+  <p>
+    Rating:
+    {{ visit.drinkRating }}/10
+  </p>
+
+  <p>
+    Productivity:
+    {{ visit.productivityLevel }}/10
+  </p>
+
+  <p class="ambiance">
+    {{ visit.ambiance }}
+  </p>
+
+  <p class="notes">
+    {{ visit.notes }}
+  </p>
+
+</div>

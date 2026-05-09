@@ -1,0 +1,25 @@
+<h2>Add Cafe</h2>
+
+<form (ngSubmit)="onSubmit()">
+
+  <input
+    type="text"
+    [(ngModel)]="name"
+    name="name"
+    placeholder="Cafe Name"
+    required
+  >
+
+  <input
+    type="text"
+    [(ngModel)]="location"
+    name="location"
+    placeholder="Location"
+    required
+  >
+
+  <button type="submit">
+    Add Cafe
+  </button>
+
+</form>
